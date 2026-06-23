@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 150,
                     height: 150,
                     alignment: .center,
-                    child: _bmi == 0.0
+                    child: _bmi == 0.0 //comments
                         ? Text(
                             textAlign: .center,
                             'Enter body weight and height to know your BMI value',
